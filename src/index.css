@@ -1,13 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&family=Mouse+Memoirs&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Mouse Memoirs', sans-serif;
+  background-color: var(--sky-blue);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+:root {
+  --little-white: #EFFFFD;
+  --sky-blue: #B8FFF9;
+  --bluer: #85F4FF;
+  --the-bluest: #42C2FF;
 }

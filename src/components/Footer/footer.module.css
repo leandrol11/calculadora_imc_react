@@ -1,0 +1,20 @@
+.container {
+    padding: 2rem 5rem;
+    text-align: center;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: var(--the-bluest);
+}
+
+.text {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: black;
+}
+
+.img {
+    width: 3rem;
+    height: 3rem;
+}
