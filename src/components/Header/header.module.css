@@ -1,11 +1,38 @@
 .container {
+    display: flex;
+    flex-direction: column;
     padding: 2rem;
     text-align: center;
     background-color: var(--the-bluest);
 }
 
+.link {
+    float: right;
+    color: black;
+    text-decoration: none;
+    background-color: var(--sky-blue);
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.link:hover {
+    color: white;
+    background-color: black;
+}
+
 .title {
     font-size: 6rem;
     line-height: 6rem;
+
+}
+
+.titleLink {
+    text-decoration: none;
     color: white;
+}
+
+.titleLink:hover {
+    color: black;
 }
